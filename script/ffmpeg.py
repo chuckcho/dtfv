@@ -4,7 +4,7 @@
 import subprocess, re, os
 
 # provide your own ffmpeg here
-ffmpeg = 'ffmpeg'
+ffmpeg = '/usr/local/bin/ffmpeg'
 
 # resize videoName to 320x240 and store in resizedName
 # if succeed return True
@@ -34,4 +34,3 @@ def check(videoName):
     if err.find('Invalid') > -1:
         return False
     return True
-

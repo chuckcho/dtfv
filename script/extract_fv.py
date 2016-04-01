@@ -5,9 +5,9 @@ import subprocess, os, ffmpeg
 import sys
 
 # Dense Trajectories binary
-dtBin = './DenseTrackStab'
+dtBin = '/home/chuck/projects/iDT/improved_trajectory_release/release/DenseTrackStab'
 # Compiled fisher vector binary
-fvBin = './compute_fv'
+fvBin = '../src/compute_fv'
 # Temp directory to store resized videos
 tmpDir = '/tmp'
 # Process ID for running in parallel
